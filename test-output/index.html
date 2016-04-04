@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestBPNG" hash-for-method="addMedia">addMedia</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestBPNG" hash-for-method="addbookmark">addbookmark</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestBPNG" hash-for-method="bookmark">bookmark</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestBPNG" hash-for-method="chat">chat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestBPNG" hash-for-method="checkAccountDetail">checkAccountDetail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestBPNG" hash-for-method="checkSettingDetail">checkSettingDetail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestBPNG" hash-for-method="createBisnis">createBisnis</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestBPNG" hash-for-method="deleteMedia">deleteMedia</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestBPNG" hash-for-method="forgotpassword">forgotpassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestBPNG" hash-for-method="listchat">listchat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestBPNG" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestBPNG" hash-for-method="register">register</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestBPNG" hash-for-method="updateBisnis">updateBisnis</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestBPNG" hash-for-method="updateMedia">updateMedia</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestBPNG" hash-for-method="updateName">updateName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestBPNG" hash-for-method="uploadBgImg">uploadBgImg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestBPNG" hash-for-method="uploadBisnisBgImg">uploadBisnisBgImg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestBPNG" hash-for-method="uploadBisnisLogoImg">uploadBisnisLogoImg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestBPNG" hash-for-method="uploadProfileImg">uploadProfileImg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestBPNG" hash-for-method="viewnologin">viewnologin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestBPNG</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addMedia">
+                  </a> <!-- addMedia -->
+                  <span class="method-name">addMedia</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addbookmark">
+                  </a> <!-- addbookmark -->
+                  <span class="method-name">addbookmark</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookmark">
+                  </a> <!-- bookmark -->
+                  <span class="method-name">bookmark</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="chat">
+                  </a> <!-- chat -->
+                  <span class="method-name">chat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkAccountDetail">
+                  </a> <!-- checkAccountDetail -->
+                  <span class="method-name">checkAccountDetail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSettingDetail">
+                  </a> <!-- checkSettingDetail -->
+                  <span class="method-name">checkSettingDetail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createBisnis">
+                  </a> <!-- createBisnis -->
+                  <span class="method-name">createBisnis</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteMedia">
+                  </a> <!-- deleteMedia -->
+                  <span class="method-name">deleteMedia</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgotpassword">
+                  </a> <!-- forgotpassword -->
+                  <span class="method-name">forgotpassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listchat">
+                  </a> <!-- listchat -->
+                  <span class="method-name">listchat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="register">
+                  </a> <!-- register -->
+                  <span class="method-name">register</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateBisnis">
+                  </a> <!-- updateBisnis -->
+                  <span class="method-name">updateBisnis</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateMedia">
+                  </a> <!-- updateMedia -->
+                  <span class="method-name">updateMedia</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateName">
+                  </a> <!-- updateName -->
+                  <span class="method-name">updateName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="uploadBgImg">
+                  </a> <!-- uploadBgImg -->
+                  <span class="method-name">uploadBgImg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="uploadBisnisBgImg">
+                  </a> <!-- uploadBisnisBgImg -->
+                  <span class="method-name">uploadBisnisBgImg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="uploadBisnisLogoImg">
+                  </a> <!-- uploadBisnisLogoImg -->
+                  <span class="method-name">uploadBisnisLogoImg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="uploadProfileImg">
+                  </a> <!-- uploadProfileImg -->
+                  <span class="method-name">uploadProfileImg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewnologin">
+                  </a> <!-- viewnologin -->
+                  <span class="method-name">viewnologin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/private/var/folders/1z/5dqy73715fq43ld4hn580stm0000gn/T/testng-eclipse--937992603/testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestBPNG&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkSettingDetail')
+data.setCell(0, 2, 'TestBPNG')
+data.setCell(0, 3, 104518);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkAccountDetail')
+data.setCell(1, 2, 'TestBPNG')
+data.setCell(1, 3, 94840);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'register')
+data.setCell(2, 2, 'TestBPNG')
+data.setCell(2, 3, 72911);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'login')
+data.setCell(3, 2, 'TestBPNG')
+data.setCell(3, 3, 72871);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'uploadProfileImg')
+data.setCell(4, 2, 'TestBPNG')
+data.setCell(4, 3, 60138);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'uploadBgImg')
+data.setCell(5, 2, 'TestBPNG')
+data.setCell(5, 3, 58097);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'addMedia')
+data.setCell(6, 2, 'TestBPNG')
+data.setCell(6, 3, 55885);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'uploadBisnisBgImg')
+data.setCell(7, 2, 'TestBPNG')
+data.setCell(7, 3, 54497);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'uploadBisnisLogoImg')
+data.setCell(8, 2, 'TestBPNG')
+data.setCell(8, 3, 53141);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'createBisnis')
+data.setCell(9, 2, 'TestBPNG')
+data.setCell(9, 3, 44371);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'chat')
+data.setCell(10, 2, 'TestBPNG')
+data.setCell(10, 3, 44135);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'listchat')
+data.setCell(11, 2, 'TestBPNG')
+data.setCell(11, 3, 43336);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'updateMedia')
+data.setCell(12, 2, 'TestBPNG')
+data.setCell(12, 3, 38765);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'deleteMedia')
+data.setCell(13, 2, 'TestBPNG')
+data.setCell(13, 3, 36262);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'updateBisnis')
+data.setCell(14, 2, 'TestBPNG')
+data.setCell(14, 3, 35065);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'viewnologin')
+data.setCell(15, 2, 'TestBPNG')
+data.setCell(15, 3, 33375);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'updateName')
+data.setCell(16, 2, 'TestBPNG')
+data.setCell(16, 3, 32704);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'bookmark')
+data.setCell(17, 2, 'TestBPNG')
+data.setCell(17, 3, 30988);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'addbookmark')
+data.setCell(18, 2, 'TestBPNG')
+data.setCell(18, 3, 30106);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'forgotpassword')
+data.setCell(19, 2, 'TestBPNG')
+data.setCell(19, 3, 13292);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 16 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestBPNG</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">before</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">viewnologin</span>
+                <span class="method-start">2360 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=viewnologin status=SUCCESS method=TestBPNG.viewnologin()[pri:1, instance:TestBPNG@5...)</span>
+                <span class="method-start">35736 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">register</span>
+                <span class="method-start">35738 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=register status=SUCCESS method=TestBPNG.register()[pri:2, instance:TestBPNG@5e9ed26...)</span>
+                <span class="method-start">108649 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">forgotpassword</span>
+                <span class="method-start">108650 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">121943 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=forgotpassword status=SUCCESS method=TestBPNG.forgotpassword()[pri:3, instance:Test...)</span>
+                <span class="method-start">121943 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkSettingDetail</span>
+                <span class="method-start">194815 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=login status=SUCCESS method=TestBPNG.login()[pri:4, instance:TestBPNG@5e9ed26e] out...)</span>
+                <span class="method-start">194815 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=checkSettingDetail status=SUCCESS method=TestBPNG.checkSettingDetail()[pri:5, insta...)</span>
+                <span class="method-start">299334 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkAccountDetail</span>
+                <span class="method-start">299335 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=checkAccountDetail status=SUCCESS method=TestBPNG.checkAccountDetail()[pri:6, insta...)</span>
+                <span class="method-start">394176 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">updateName</span>
+                <span class="method-start">394177 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=updateName status=SUCCESS method=TestBPNG.updateName()[pri:7, instance:TestBPNG@5e9...)</span>
+                <span class="method-start">426881 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">uploadBgImg</span>
+                <span class="method-start">426882 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=uploadBgImg status=SUCCESS method=TestBPNG.uploadBgImg()[pri:8, instance:TestBPNG@5...)</span>
+                <span class="method-start">484980 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">uploadProfileImg</span>
+                <span class="method-start">484981 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=uploadProfileImg status=SUCCESS method=TestBPNG.uploadProfileImg()[pri:9, instance:...)</span>
+                <span class="method-start">545120 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">createBisnis</span>
+                <span class="method-start">545121 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=createBisnis status=SUCCESS method=TestBPNG.createBisnis()[pri:10, instance:TestBPN...)</span>
+                <span class="method-start">589493 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">updateBisnis</span>
+                <span class="method-start">589494 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=updateBisnis status=SUCCESS method=TestBPNG.updateBisnis()[pri:11, instance:TestBPN...)</span>
+                <span class="method-start">624560 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">uploadBisnisBgImg</span>
+                <span class="method-start">624561 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=uploadBisnisBgImg status=SUCCESS method=TestBPNG.uploadBisnisBgImg()[pri:12, instan...)</span>
+                <span class="method-start">679059 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">uploadBisnisLogoImg</span>
+                <span class="method-start">679060 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=uploadBisnisLogoImg status=SUCCESS method=TestBPNG.uploadBisnisLogoImg()[pri:13, in...)</span>
+                <span class="method-start">732202 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">deleteMedia</span>
+                <span class="method-start">732203 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addMedia</span>
+                <span class="method-start">768466 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=deleteMedia status=SUCCESS method=TestBPNG.deleteMedia()[pri:14, instance:TestBPNG@...)</span>
+                <span class="method-start">768466 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=addMedia status=SUCCESS method=TestBPNG.addMedia()[pri:15, instance:TestBPNG@5e9ed2...)</span>
+                <span class="method-start">824352 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">updateMedia</span>
+                <span class="method-start">824353 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=updateMedia status=SUCCESS method=TestBPNG.updateMedia()[pri:16, instance:TestBPNG@...)</span>
+                <span class="method-start">863119 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">addbookmark</span>
+                <span class="method-start">863120 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookmark</span>
+                <span class="method-start">893227 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=addbookmark status=SUCCESS method=TestBPNG.addbookmark()[pri:17, instance:TestBPNG@...)</span>
+                <span class="method-start">893227 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=bookmark status=SUCCESS method=TestBPNG.bookmark()[pri:18, instance:TestBPNG@5e9ed2...)</span>
+                <span class="method-start">924215 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">chat</span>
+                <span class="method-start">924216 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=chat status=SUCCESS method=TestBPNG.chat()[pri:19, instance:TestBPNG@5e9ed26e] outp...)</span>
+                <span class="method-start">968351 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">listchat</span>
+                <span class="method-start">968352 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=listchat status=SUCCESS method=TestBPNG.listchat()[pri:20, instance:TestBPNG@5e9ed2...)</span>
+                <span class="method-start">1011689 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

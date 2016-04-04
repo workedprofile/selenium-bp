@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="20" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1011696" started-at="2016-03-07T06:47:47Z" finished-at="2016-03-07T07:04:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1011696" started-at="2016-03-07T06:47:47Z" finished-at="2016-03-07T07:04:38Z">
+      <class name="TestBPNG">
+        <test-method status="PASS" signature="before()[pri:0, instance:TestBPNG@5e9ed26e]" name="before" is-config="true" duration-ms="2346" started-at="2016-03-07T13:47:47Z" finished-at="2016-03-07T13:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="viewnologin()[pri:1, instance:TestBPNG@5e9ed26e]" name="viewnologin" duration-ms="33375" started-at="2016-03-07T13:47:49Z" finished-at="2016-03-07T13:48:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewnologin -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestBPNG@5e9ed26e]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-03-07T13:48:22Z" finished-at="2016-03-07T13:48:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=viewnologin status=SUCCESS method=TestBPNG.viewnologin()[pri:1, instance:TestBPNG@5e9ed26e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="register()[pri:2, instance:TestBPNG@5e9ed26e]" name="register" duration-ms="72911" started-at="2016-03-07T13:48:22Z" finished-at="2016-03-07T13:49:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestBPNG@5e9ed26e]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-03-07T13:49:35Z" finished-at="2016-03-07T13:49:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=register status=SUCCESS method=TestBPNG.register()[pri:2, instance:TestBPNG@5e9ed26e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="forgotpassword()[pri:3, instance:TestBPNG@5e9ed26e]" name="forgotpassword" duration-ms="13292" started-at="2016-03-07T13:49:35Z" finished-at="2016-03-07T13:49:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotpassword -->
+        <test-method status="PASS" signature="login()[pri:4, instance:TestBPNG@5e9ed26e]" name="login" duration-ms="72871" started-at="2016-03-07T13:49:48Z" finished-at="2016-03-07T13:51:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestBPNG@5e9ed26e]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-03-07T13:49:48Z" finished-at="2016-03-07T13:49:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=forgotpassword status=SUCCESS method=TestBPNG.forgotpassword()[pri:3, instance:TestBPNG@5e9ed26e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="checkSettingDetail()[pri:5, instance:TestBPNG@5e9ed26e]" name="checkSettingDetail" duration-ms="104518" started-at="2016-03-07T13:51:01Z" finished-at="2016-03-07T13:52:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSettingDetail -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestBPNG@5e9ed26e]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-03-07T13:51:01Z" finished-at="2016-03-07T13:51:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=TestBPNG.login()[pri:4, instance:TestBPNG@5e9ed26e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestBPNG@5e9ed26e]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-03-07T13:52:46Z" finished-at="2016-03-07T13:52:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkSettingDetail status=SUCCESS method=TestBPNG.checkSettingDetail()[pri:5, instance:TestBPNG@5e9ed26e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="checkAccountDetail()[pri:6, instance:TestBPNG@5e9ed26e]" name="checkAccountDetail" duration-ms="94840" started-at="2016-03-07T13:52:46Z" finished-at="2016-03-07T13:54:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAccountDetail -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestBPNG@5e9ed26e]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-03-07T13:54:21Z" finished-at="2016-03-07T13:54:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkAccountDetail status=SUCCESS method=TestBPNG.checkAccountDetail()[pri:6, instance:TestBPNG@5e9ed26e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="updateName()[pri:7, instance:TestBPNG@5e9ed26e]" name="updateName" duration-ms="32704" started-at="2016-03-07T13:54:21Z" finished-at="2016-03-07T13:54:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateName -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestBPNG@5e9ed26e]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-03-07T13:54:53Z" finished-at="2016-03-07T13:54:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateName status=SUCCESS method=TestBPNG.updateName()[pri:7, instance:TestBPNG@5e9ed26e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="uploadBgImg()[pri:8, instance:TestBPNG@5e9ed26e]" name="uploadBgImg" duration-ms="58097" started-at="2016-03-07T13:54:53Z" finished-at="2016-03-07T13:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadBgImg -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestBPNG@5e9ed26e]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-03-07T13:55:52Z" finished-at="2016-03-07T13:55:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=uploadBgImg status=SUCCESS method=TestBPNG.uploadBgImg()[pri:8, instance:TestBPNG@5e9ed26e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="uploadProfileImg()[pri:9, instance:TestBPNG@5e9ed26e]" name="uploadProfileImg" duration-ms="60138" started-at="2016-03-07T13:55:52Z" finished-at="2016-03-07T13:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadProfileImg -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestBPNG@5e9ed26e]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-03-07T13:56:52Z" finished-at="2016-03-07T13:56:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=uploadProfileImg status=SUCCESS method=TestBPNG.uploadProfileImg()[pri:9, instance:TestBPNG@5e9ed26e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="createBisnis()[pri:10, instance:TestBPNG@5e9ed26e]" name="createBisnis" duration-ms="44371" started-at="2016-03-07T13:56:52Z" finished-at="2016-03-07T13:57:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBisnis -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestBPNG@5e9ed26e]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-03-07T13:57:36Z" finished-at="2016-03-07T13:57:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createBisnis status=SUCCESS method=TestBPNG.createBisnis()[pri:10, instance:TestBPNG@5e9ed26e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="updateBisnis()[pri:11, instance:TestBPNG@5e9ed26e]" name="updateBisnis" duration-ms="35065" started-at="2016-03-07T13:57:36Z" finished-at="2016-03-07T13:58:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBisnis -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestBPNG@5e9ed26e]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-03-07T13:58:11Z" finished-at="2016-03-07T13:58:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateBisnis status=SUCCESS method=TestBPNG.updateBisnis()[pri:11, instance:TestBPNG@5e9ed26e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="uploadBisnisBgImg()[pri:12, instance:TestBPNG@5e9ed26e]" name="uploadBisnisBgImg" duration-ms="54497" started-at="2016-03-07T13:58:11Z" finished-at="2016-03-07T13:59:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadBisnisBgImg -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestBPNG@5e9ed26e]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-03-07T13:59:06Z" finished-at="2016-03-07T13:59:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=uploadBisnisBgImg status=SUCCESS method=TestBPNG.uploadBisnisBgImg()[pri:12, instance:TestBPNG@5e9ed26e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="uploadBisnisLogoImg()[pri:13, instance:TestBPNG@5e9ed26e]" name="uploadBisnisLogoImg" duration-ms="53141" started-at="2016-03-07T13:59:06Z" finished-at="2016-03-07T13:59:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadBisnisLogoImg -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestBPNG@5e9ed26e]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-03-07T13:59:59Z" finished-at="2016-03-07T13:59:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=uploadBisnisLogoImg status=SUCCESS method=TestBPNG.uploadBisnisLogoImg()[pri:13, instance:TestBPNG@5e9ed26e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="deleteMedia()[pri:14, instance:TestBPNG@5e9ed26e]" name="deleteMedia" duration-ms="36262" started-at="2016-03-07T13:59:59Z" finished-at="2016-03-07T14:00:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMedia -->
+        <test-method status="PASS" signature="addMedia()[pri:15, instance:TestBPNG@5e9ed26e]" name="addMedia" duration-ms="55885" started-at="2016-03-07T14:00:35Z" finished-at="2016-03-07T14:01:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMedia -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestBPNG@5e9ed26e]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-03-07T14:00:35Z" finished-at="2016-03-07T14:00:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteMedia status=SUCCESS method=TestBPNG.deleteMedia()[pri:14, instance:TestBPNG@5e9ed26e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestBPNG@5e9ed26e]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-03-07T14:01:31Z" finished-at="2016-03-07T14:01:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addMedia status=SUCCESS method=TestBPNG.addMedia()[pri:15, instance:TestBPNG@5e9ed26e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="updateMedia()[pri:16, instance:TestBPNG@5e9ed26e]" name="updateMedia" duration-ms="38765" started-at="2016-03-07T14:01:31Z" finished-at="2016-03-07T14:02:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateMedia -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestBPNG@5e9ed26e]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-03-07T14:02:10Z" finished-at="2016-03-07T14:02:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateMedia status=SUCCESS method=TestBPNG.updateMedia()[pri:16, instance:TestBPNG@5e9ed26e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="addbookmark()[pri:17, instance:TestBPNG@5e9ed26e]" name="addbookmark" duration-ms="30106" started-at="2016-03-07T14:02:10Z" finished-at="2016-03-07T14:02:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addbookmark -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestBPNG@5e9ed26e]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-03-07T14:02:40Z" finished-at="2016-03-07T14:02:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addbookmark status=SUCCESS method=TestBPNG.addbookmark()[pri:17, instance:TestBPNG@5e9ed26e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="bookmark()[pri:18, instance:TestBPNG@5e9ed26e]" name="bookmark" duration-ms="30988" started-at="2016-03-07T14:02:40Z" finished-at="2016-03-07T14:03:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookmark -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestBPNG@5e9ed26e]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-03-07T14:03:11Z" finished-at="2016-03-07T14:03:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bookmark status=SUCCESS method=TestBPNG.bookmark()[pri:18, instance:TestBPNG@5e9ed26e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="chat()[pri:19, instance:TestBPNG@5e9ed26e]" name="chat" duration-ms="44135" started-at="2016-03-07T14:03:11Z" finished-at="2016-03-07T14:03:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chat -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestBPNG@5e9ed26e]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-03-07T14:03:55Z" finished-at="2016-03-07T14:03:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=chat status=SUCCESS method=TestBPNG.chat()[pri:19, instance:TestBPNG@5e9ed26e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="listchat()[pri:20, instance:TestBPNG@5e9ed26e]" name="listchat" duration-ms="43336" started-at="2016-03-07T14:03:55Z" finished-at="2016-03-07T14:04:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listchat -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestBPNG@5e9ed26e]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-03-07T14:04:38Z" finished-at="2016-03-07T14:04:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=listchat status=SUCCESS method=TestBPNG.listchat()[pri:20, instance:TestBPNG@5e9ed26e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestBPNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
